@@ -1,0 +1,14 @@
+.header {
+  background-color: #000;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.header_title {
+  font-size: 1.5em;
+}
+
+.header_logo {
+	height: 110px;
+}

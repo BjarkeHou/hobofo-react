@@ -1,0 +1,29 @@
+ul.playerlist {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #999;
+    text-align:center;
+}
+
+li.playerlist_li {
+    /* float: left; */
+    border-color: darkgrey;
+    border-right: 1px;
+    border-bottom: 1px;
+}
+
+/* li.playerlist_li a.playerlist_a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+} */
+
+/* Change the link color to #111 (black) on hover */
+li.playerlist_li:hover {
+    background-color: #111;
+    color: white;
+}
