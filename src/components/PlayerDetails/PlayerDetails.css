@@ -1,4 +1,4 @@
-ul.matchlist {
+ul.playerdetails_matchlist {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -8,7 +8,7 @@ ul.matchlist {
     list-style-position:inside;
 }
 
-li.matchlist_li {
+li.playerdetails_matchlist_li {
     padding: 10px;
     border-style: solid;
     border-color: black;
@@ -24,7 +24,7 @@ li.matchlist_li {
 } */
 
 /* Change the link color to #111 (black) on hover */
-li.matchlist_li:hover {
+li.playerdetails_matchlist_li:hover {
     background-color: #111;
     color: white;
 }

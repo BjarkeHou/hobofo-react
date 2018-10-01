@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './PlayerList.css';
 
 import Player from '../Player/Player.js';
@@ -45,7 +45,7 @@ class PlayerList extends React.Component {
         } else {
             return (
                 <ul className="playerlist"> {players.map(player => (
-                    <li className="playerlist_li" key = { player.name } > <Player player={player} /></li>
+                    <li className="playerlist_li" key = { player.name } ><a href={"/players/"+player.id}> <Player player={player} /></a></li>
                     ))}
                 </ul>
             );

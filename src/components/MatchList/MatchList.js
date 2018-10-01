@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './MatchList.css';
 
-import Player from '../Match/Match.js';
+import Match from '../Match/Match.js';
 
 
 class MatchList extends React.Component {
@@ -45,7 +45,7 @@ class MatchList extends React.Component {
         } else {
             return (
                 <ul className="matchlist"> {matches.map(match => (
-                    <li className="matchlist_li"> <Match match={match} /></li>
+                    <li key={match.id} className="matchlist_li"> <Match match={match} /></li>
                     ))}
                 </ul>
             );

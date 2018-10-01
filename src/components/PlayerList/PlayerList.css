@@ -5,25 +5,39 @@ ul.playerlist {
     overflow: hidden;
     background-color: #999;
     text-align:center;
+    list-style-position:inside;
 }
 
 li.playerlist_li {
     /* float: left; */
-    border-color: darkgrey;
-    border-right: 1px;
-    border-bottom: 1px;
+    padding: 5px;
+    border-style: solid;
+    border-color: black;
+    border-top: 1px;
 }
 
-/* li.playerlist_li a.playerlist_a {
-    display: inline-block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
+a:link {
     text-decoration: none;
-} */
+    color: black;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}
 
 /* Change the link color to #111 (black) on hover */
 li.playerlist_li:hover {
     background-color: #111;
     color: white;
+}
+
+li.playerlist_li:hover a:hover {
+    text-decoration: underline;
+    background-color: #111;
+    color: white;
+}
+
+a:active {
+    text-decoration: underline;
 }
