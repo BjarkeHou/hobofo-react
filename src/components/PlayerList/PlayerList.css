@@ -1,5 +1,5 @@
-ul.playerlist {
-    list-style-type: none;
+ol.playerlist {
+    /* list-style-type: none; */
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -32,7 +32,7 @@ li.playerlist_li:hover {
     color: white;
 }
 
-li.playerlist_li:hover a:hover {
+li.playerlist_li:hover a{
     text-decoration: underline;
     background-color: #111;
     color: white;
